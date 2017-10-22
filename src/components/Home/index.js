@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import { View, Text, Image } from 'react-native';
-import { Camera, Permissions } from 'expo';
+import { StackNavigator } from 'react-navigation';
 
-import styles from '../../styles/';
+import styles from '../../styles';
 
-export default class Home extends Component {
-    constructor(props) {
-        super(props);
+import Home from './Home';
+import Camera from './Camera';
 
+<<<<<<< HEAD
         this.state = {
             hasCameraPermissions: null,
             type: Camera.Constants.Type.back
@@ -39,3 +37,12 @@ export default class Home extends Component {
         );
     }
 }
+=======
+export default StackNavigator({
+    Home: { screen: Home },
+    Camera: { screen: Camera }
+},
+{
+    initialRouteName: 'Home'
+});
+>>>>>>> e0ca7f01a718d53f8194896b748b515b855afabc
