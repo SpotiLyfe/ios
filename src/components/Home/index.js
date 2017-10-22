@@ -8,6 +8,7 @@ import Camera from './Camera';
 export default StackNavigator({
     Home: { screen: Home },
     Camera: { screen: Camera }
-}, {
+},
+{
     initialRouteName: 'Home'
 });
