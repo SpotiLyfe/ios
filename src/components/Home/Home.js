@@ -12,7 +12,7 @@ export default class Home extends Component {
         return(
             <View style={styles.container}>
                 <Button
-                    onPress={this.props.navigation.navigate('Camera')}
+                    onPress={() => this.props.navigation.navigate('Camera')}
                     title="Capture Moment"
                 />
             </View>
