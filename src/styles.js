@@ -6,4 +6,10 @@ export default StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     }
+    homeButton: {
+        width: 100vw,
+        height: 100vw,
+        borderRadius: 100/2,
+        backgroundColor:'red'
+    }
 });

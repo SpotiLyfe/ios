@@ -25,7 +25,8 @@ export default class Home extends Component {
                 <Text>This is the start of the home page</Text>
                 <Button
                   //onPress={onPressLearnMore}
-                  title="Start the app"
+                  style = {styles.homeButton}
+                  title="Start \n the \n  app \n"
                   color="#841584"
                   accessibilityLabel="soundtrack my life"
                 />
